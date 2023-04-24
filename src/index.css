@@ -7,23 +7,35 @@
     @apply font-primary bg-gray-200
   }
 
+  .primary-color {
+    @apply bg-green-500
+  }
+
+  .primary-color-hover {
+    @apply bg-green-600
+  }
+
+  .text-green {
+    @apply text-green-500
+  }
+
   .dropdown {
-    @apply w-full lg: max-w-[296px] cursor-pointer
+    @apply w-full cursor-pointer
   }
 
   .dropdown-btn {
-    @apply flex h-[64px] items-center px-[18px] border rounde
+    @apply flex h-[48px] items-center px-[18px] border rounded
   }
 
   .dropdown-icon-primary {
-    @apply text-2xl mr-[18px] text-violet-700
+    @apply text-2xl mr-[18px] text-green-500
   }
 
   .dropdown-icon-secondary {
-    @apply text-2xl text-violet-700 ml-auto
+    @apply text-2xl text-green-500 ml-auto
   }
 
   .dropdown-menu {
-    @apply px-6 py-8 text-[15px] space-y-6 shadow-md bg-white absolute w-full z-10 list-none rounded-b-lg
+    @apply px-6 py-8 text-[18px] font-bold space-y-6 shadow-md bg-green-600 text-white absolute w-full z-10 list-none rounded-b-lg
   }
 }

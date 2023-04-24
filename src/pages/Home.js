@@ -1,10 +1,13 @@
 import React from 'react'
 import Banner from '../components/Banner'
+import ProductList from '../components/ProductList'
 
 const Home = () => {
     return (
-        <div className='min-h-[1800px]'>
+        <div className=''>
             <Banner />
+
+            <ProductList />
         </div>
     )
 }
