@@ -4,12 +4,15 @@ import './index.css';
 import App from './App';
 
 import { BrowserRouter as Router } from 'react-router-dom'
+import ProductContextProvider from './components/ProductContext';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <Router>
-    <React.StrictMode>
-      <App />
-    </React.StrictMode>
-  </Router>
+  <ProductContextProvider>
+    <Router>
+      <React.StrictMode>
+        <App />
+      </React.StrictMode>
+    </Router>
+  </ProductContextProvider>
 );

@@ -8,7 +8,7 @@ import Footer from './components/Footer'
 
 // import pages
 import Home from './pages/Home'
-import CameraDetails from './pages/CameraDetails'
+import ProductDetails from './pages/ProductDetails'
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
       <Header />
       <Routes>
         <Route path='/' element={<Home />} />
-        <Route path='/camera/:id' element={<CameraDetails />} />
+        <Route path='/product/:id' element={<ProductDetails />} />
       </Routes>
       <Footer />
     </div>
